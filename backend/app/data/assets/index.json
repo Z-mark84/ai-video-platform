@@ -1,0 +1,73 @@
+{
+  "assets": [
+    {
+      "id": "ast-508c0b350434",
+      "project_id": "default",
+      "filename": "mock_gen_5e3752ad.png",
+      "original_name": "AI生成图片.png",
+      "file_size": 51200,
+      "mime_type": "image/png",
+      "category": "scene",
+      "tags": [
+        "AI生成",
+        "场景"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "duration_sec": null,
+      "source": "generated",
+      "source_task_id": null,
+      "storage_path": "assets/ast-508c0b350434/mock_gen_5e3752ad.png",
+      "thumbnail_path": "assets/ast-508c0b350434/thumb_mock_gen_5e3752ad.png",
+      "md5_hash": "14cf9a92371caa29b9c58b28d971ae67",
+      "is_deleted": false,
+      "created_at": "2026-07-23T15:04:14.011629"
+    },
+    {
+      "id": "ast-3509dfefae68",
+      "project_id": "default",
+      "filename": "mock_gen_b814d69c.png",
+      "original_name": "AI生成图片.png",
+      "file_size": 51200,
+      "mime_type": "image/png",
+      "category": "scene",
+      "tags": [
+        "AI生成",
+        "场景"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "duration_sec": null,
+      "source": "generated",
+      "source_task_id": null,
+      "storage_path": "assets/ast-3509dfefae68/mock_gen_b814d69c.png",
+      "thumbnail_path": "assets/ast-3509dfefae68/thumb_mock_gen_b814d69c.png",
+      "md5_hash": "0d61425e3b82b029036397f78f06f602",
+      "is_deleted": false,
+      "created_at": "2026-07-23T15:09:06.611293"
+    },
+    {
+      "id": "ast-80501b6970ee",
+      "project_id": "default",
+      "filename": "mock_gen_2d68fde0.png",
+      "original_name": "AI生成图片.png",
+      "file_size": 51200,
+      "mime_type": "image/png",
+      "category": "scene",
+      "tags": [
+        "AI生成",
+        "场景"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "duration_sec": null,
+      "source": "generated",
+      "source_task_id": null,
+      "storage_path": "assets/ast-80501b6970ee/mock_gen_2d68fde0.png",
+      "thumbnail_path": "assets/ast-80501b6970ee/thumb_mock_gen_2d68fde0.png",
+      "md5_hash": "50c903b3803a405c7b70d184374e87a2",
+      "is_deleted": false,
+      "created_at": "2026-07-23T15:09:16.925528"
+    }
+  ]
+}
