@@ -208,6 +208,8 @@ const classificationOptions = [
 
 const loading = computed(() => drawStore.loading)
 const allTasks = computed(() => [...drawStore.pendingTasks, ...drawStore.completedTasks])
+const completedTasks = computed(() => drawStore.completedTasks)
+const pendingTasks = computed(() => drawStore.pendingTasks)
 const hasM1Output = computed(() => !!promptStore.lastOutput)
 
 function loadFromM1() {

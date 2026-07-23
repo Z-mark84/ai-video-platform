@@ -21,5 +21,5 @@ export async function getEmotionPresets(): Promise<EmotionPreset[]> {
 }
 
 export async function synthesize(req: TTSJobRequest): Promise<TTSJobResult> {
-  return req(`${BASE}/synthesize`, { method: 'POST', body: JSON.stringify(req) })
+  return request(`${BASE}/synthesize`, { method: 'POST', body: JSON.stringify(req) })
 }

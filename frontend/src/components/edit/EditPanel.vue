@@ -78,7 +78,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
 import { useMessage } from 'naive-ui'
-import type { TimelineSegment, VideoProject, RenderProgress } from '../../api/editTypes'
+import type { VideoProject, RenderProgress } from '../../api/editTypes'
 import * as api from '../../api/edit'
 
 const message = useMessage()

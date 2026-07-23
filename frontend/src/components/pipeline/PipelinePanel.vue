@@ -2,10 +2,10 @@
 import { ref, computed } from 'vue'
 import {
   NButton, NInput, NSelect, NTag, NProgress, NCard,
-  NCollapse, NCollapseItem, NSpace, NDivider, NSpin,
-  NAlert, useMessage
+  NCollapse, NCollapseItem, NSpace, NDivider,
+  useMessage
 } from 'naive-ui'
-import { generateVideo, type PipelineStageResult, type PipelineGenerateResponse } from '../../api/pipeline'
+import { generateVideo, type PipelineGenerateResponse } from '../../api/pipeline'
 import { runDemoPipeline } from './demoPipeline'
 
 const message = useMessage()
@@ -20,7 +20,6 @@ const generating = ref(false)
 
 // 结果
 const result = ref<PipelineGenerateResponse | null>(null)
-const selectedStage = ref<string | null>(null)
 
 const genreOptions = [
   { label: '🧠 认知科普', value: 'cognitive' },

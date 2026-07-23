@@ -100,7 +100,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
 import { useMessage } from 'naive-ui'
-import type { VoiceInfo, TTSJobResult } from '../../api/ttsTypes'
+import type { VoiceInfo, EmotionPreset, TTSJobResult } from '../../api/ttsTypes'
 import * as api from '../../api/tts'
 
 const message = useMessage()

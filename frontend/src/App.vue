@@ -4,7 +4,6 @@ import { NConfigProvider, NMessageProvider, darkTheme, NMenu } from 'naive-ui'
 import DualChannelInput from './components/prompt/DualChannelInput.vue'
 import PipelinePanel from './components/pipeline/PipelinePanel.vue'
 import DrawPanel from './components/draw/DrawPanel.vue'
-import AssetPanel from './components/asset/AssetPanel.vue'
 import CopywritePanel from './components/copywrite/CopywritePanel.vue'
 import TTSPanel from './components/tts/TTSPanel.vue'
 import EditPanel from './components/edit/EditPanel.vue'
@@ -35,7 +34,7 @@ const menuOptions = [
           <p class="subtitle">{{ currentModule === 'pipeline' ? '🎬 一键生成 · AI 长视频流水线' : currentModule === 'm1' ? 'M1 · 提示词优化引擎' : currentModule === 'm2' ? 'M2 · AI 绘图服务' : currentModule === 'm3' ? 'M3 · 素材管理' : currentModule === 'm4' ? 'M4 · 文案生成' : currentModule === 'm5' ? 'M5 · TTS配音' : currentModule === 'm6' ? 'M6 · 智能剪辑' : currentModule === 'm7' ? 'M7 · 角色一致性' : 'M8 · 质量评估' }}</p>
           <n-menu
             v-model:value="currentModule"
-            mode="tabs"
+            mode="horizontal"
             :options="menuOptions"
             class="module-nav"
           />
